@@ -8,21 +8,49 @@
         display: none;
     }
 
+    header {
+        background-color: rgb(168, 168, 243);
+        color: white;
+    }
+
+    body {
+        background-color: rgb(126, 126, 230);
+    }
+
     menu{
         display: block;
         text-align: center;
-        
     }
-
-    
 
     menu > ul > li {
         display: inline-block;
-        width: 10vw;
+        width: 11vw;
+
+        
+    }
+
+    menu > ul > li > a {
+        border-radius: 10px;
+        margin: 5px;
+    }
+
+    .penis {
+        background-color: rgb(187, 182, 248);
+        color : white;
+        border: 1px solid white;
+    }
+
+    .penis:hover{
+        background-color: rgb(135, 137, 240);
     }
 
     main{
         width: 55vw;
+    }
+    
+    footer {
+        background-color: rgb(133, 174, 252);
+        color: white;
     }
 }
 
